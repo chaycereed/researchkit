@@ -1,0 +1,26 @@
+[project]
+name = "researchkit"
+version = "0.0.1"
+description = "Research Kit - Automated setup for folders, notebooks, and READMEs for reproducible research"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name="Chayce Reed" }
+]
+requires-python = ">=3.9"
+keywords = ["reproducible research", "public health", "scaffolding", "template"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["researchkit"]
+
+[project.scripts]
+researchkit = "researchkit.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
