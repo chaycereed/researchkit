@@ -81,7 +81,7 @@ def create_qc_notebook(path: Path) -> None:
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# Quality Control (QC) Template\n",
+                "# Quality Control (QC)\n",
                 "\n",
                 "This notebook provides a starting point for basic QC checks:\n",
                 "\n",
@@ -158,7 +158,7 @@ def create_cleaning_notebook(path: Path) -> None:
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# Data Cleaning Template\n",
+                "# Data Cleaning\n",
                 "\n",
                 "This notebook is for transforming raw data into analysis-ready datasets.\n",
                 "\n",
@@ -259,7 +259,7 @@ def create_analysis_notebook(path: Path) -> None:
             "cell_type": "markdown",
             "metadata": {},
             "source": [
-                "# Analysis Template\n",
+                "# Analysis\n",
                 "\n",
                 "Use this notebook for your primary analyses.\n",
                 "\n",
@@ -546,17 +546,17 @@ def generate_project(study_name: str, description: str, options: dict) -> None:
 
     if options.get("qc"):
         create_qc_notebook(
-            root / "analysis" / "notebooks" / "01_qc_template.ipynb",
+            root / "analysis" / "notebooks" / "01_qc_notebook.ipynb",
         )
 
     if options.get("clean"):
         create_cleaning_notebook(
-            root / "analysis" / "notebooks" / "02_cleaning_template.ipynb",
+            root / "analysis" / "notebooks" / "02_cleaning_notebook.ipynb",
         )
 
     if options.get("analysis"):
         create_analysis_notebook(
-            root / "analysis" / "notebooks" / "03_analysis_template.ipynb",
+            root / "analysis" / "notebooks" / "03_analysis_notebook.ipynb",
         )
 
     if options.get("checklist"):
@@ -614,7 +614,7 @@ def generate_project(study_name: str, description: str, options: dict) -> None:
         > This project was initialized using researchkit, a study template
         > generator for public-health and behavioral research.
         """).lstrip()
-        (root / "docs" / "CITATION_template.md").write_text(citation_text, encoding="utf-8")
+        (root / "docs" / "CITATIONS.md").write_text(citation_text, encoding="utf-8")
 
 
 # -----------------------
@@ -720,7 +720,7 @@ def run_info_command() -> None:
 # -----------------------
 
 def interactive_init() -> None:
-    print(f"{BOLD}{CYAN}🔬 Welcome to researchkit – Study Template Generator{RESET}\n")
+    print(f"{BOLD}{CYAN}🔬 Welcome to researchkit – Research Study Template Generator{RESET}\n")
 
     study_name = input(f"{BOLD}Study name{RESET} (e.g., sleep_mood_2025): ").strip()
     if not study_name:

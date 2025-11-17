@@ -1,5 +1,5 @@
-# researchkit 🧪  
-Research Kit - Automated setup for folders, notebooks, and READMEs for reproducible research
+# researchkit  
+Automated setup for folders, notebooks, and READMEs for reproducible research
 
 `researchkit` is a small Python toolkit that bootstraps a **reproducible study
 template** in a single command. It’s designed for public-health, behavioral, and
@@ -29,7 +29,7 @@ you get:
     - random seeds pre-set
     - commented example code blocks
   - `docs/reproducibility_checklist.md` – reproducibility checklist  
-  - `docs/CITATION_template.md` – citation/acknowledgment template  
+  - `docs/CITATION.md` – citation/acknowledgment template  
 - A useful `.gitignore` for Python, Jupyter, and data files
 
 `researchkit info` also provides a tiny **environment snapshot** utility so you
@@ -85,13 +85,13 @@ your_study/
     (codebook.md)
   analysis/
     notebooks/
-      01_qc_template.ipynb
-      02_cleaning_template.ipynb
-      03_analysis_template.ipynb
+      01_qc_notebook.ipynb
+      02_cleaning_notebook.ipynb
+      03_analysis_notebook.ipynb
     scripts/
   docs/
     (reproducibility_checklist.md)
-    (CITATION_template.md)
+    (CITATION.md)
   results/
     figures/
     tables/
