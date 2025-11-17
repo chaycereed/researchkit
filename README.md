@@ -1,22 +1,13 @@
 # researchkit  
-Automated setup for folders, notebooks, and READMEs for reproducible research
 
-`researchkit` is a small Python toolkit that bootstraps a **reproducible study
-template** in a single command. It’s designed for public-health, behavioral, and
-clinical researchers who want clean structure, metadata, and analysis scaffolds
-from day one.
+Welcome to **researchkit** - a small Python toolkit that bootstraps a **reproducible study
+template** in a single command. 
 
----
+`researchkit` is designed for public-health, behavioral, and clinical researchers who want clean structure, metadata, and analysis scaffolds from day one.
 
-## Features
+<br />
 
-When you run:
-
-```bash
-researchkit init
-```
-
-you get:
+##  🛠️ Features
 
 - **Structured folders** for data, analysis, metadata, docs, and results  
 - A **top-level README** describing the study and folder layout  
@@ -32,12 +23,12 @@ you get:
   - `docs/CITATION.md` – citation/acknowledgment template  
 - A useful `.gitignore` for Python, Jupyter, and data files
 
-`researchkit info` also provides a tiny **environment snapshot** utility so you
+- `researchkit info` provides a tiny **environment snapshot** utility so you
 can record Python and package versions for reproducibility.
 
----
+<br />
 
-## Installation
+## 📦 Installation
 
 Install directly from GitHub:
 
@@ -51,9 +42,9 @@ After installation:
 researchkit --help
 ```
 
----
+<br />
 
-## Usage
+## 💻 Usage
 
 ### 1. Initialize a new study
 
@@ -101,7 +92,7 @@ your_study/
   README.md
 ```
 
----
+<br />
 
 ### 2. Environment snapshot
 
@@ -121,17 +112,17 @@ And optionally saves:
 docs/environment_info.md
 ```
 
----
+<br />
 
-## Philosophy
+## 🧠 Philosophy
 
 `researchkit` is intentionally lightweight:
 
 The goal is simple:  
 **make reproducible workflows the default.**
 
----
+<br />
 
-## License
+## 📜 License
 
 MIT License. See `LICENSE` for details.
