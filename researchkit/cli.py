@@ -720,7 +720,7 @@ def run_info_command() -> None:
 # -----------------------
 
 def interactive_init() -> None:
-    print(f"{BOLD}{CYAN}🔬 Welcome to researchkit – Research Study Template Generator{RESET}\n")
+    print(f"{BOLD}{CYAN}🔬 Welcome to researchkit – research study template generator{RESET}\n")
 
     study_name = input(f"{BOLD}Study name{RESET} (e.g., sleep_mood_2025): ").strip()
     if not study_name:
