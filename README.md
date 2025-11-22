@@ -7,6 +7,10 @@ template** in a single command.
 
 <br />
 
+<video src="assets/researchkit_demo.mp4" width="750" autoplay loop muted></video>
+
+<br />
+
 ##  🛠️ Features
 
 - **Structured folders** for data, analysis, metadata, docs, and results  
@@ -49,7 +53,7 @@ researchkit --help
 ### 1. Initialize a new study
 
 ```bash
-researchkit init
+researchkit 
 ```
 
 You’ll be guided through an interactive wizard:

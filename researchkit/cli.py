@@ -805,8 +805,12 @@ def main() -> None:
     )
     subparsers = parser.add_subparsers(dest="command")
 
+    # Subcommands
     subparsers.add_parser("init", help="Initialize a new study project")
     subparsers.add_parser("info", help="Show and optionally save environment information")
+
+    # 👉 Default to 'init' when no subcommand is provided
+    parser.set_defaults(command="init")
 
     args = parser.parse_args()
 
