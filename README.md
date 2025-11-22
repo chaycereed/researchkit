@@ -7,7 +7,12 @@ template** in a single command.
 
 <br />
 
-<video src="assets/researchkit_demo.mp4" width="750" autoplay loop muted></video>
+<video src="https://github.com/user-attachments/assets/248bd614-fab3-4f4d-b9db-7d6b48e3343e"
+       width="750"
+       autoplay
+       loop
+       muted>
+</video>
 
 <br />
 
