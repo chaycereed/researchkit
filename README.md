@@ -5,7 +5,7 @@ template** in a single command.
 
 `researchkit` is designed for public-health, behavioral, and clinical researchers who want clean structure, metadata, and analysis scaffolds from day one.
 
-<br />
+---
 
 <video src="https://github.com/user-attachments/assets/248bd614-fab3-4f4d-b9db-7d6b48e3343e"
        width="750"
@@ -14,9 +14,9 @@ template** in a single command.
        muted>
 </video>
 
-<br />
+---
 
-##  🛠️ Features
+## Features
 
 - **Structured folders** for data, analysis, metadata, docs, and results  
 - A **top-level README** describing the study and folder layout  
@@ -35,9 +35,9 @@ template** in a single command.
 - `researchkit info` provides a tiny **environment snapshot** utility so you
 can record Python and package versions for reproducibility.
 
-<br />
+---
 
-## 📦 Installation
+## Installation
 
 Install directly from GitHub:
 
@@ -51,9 +51,9 @@ After installation:
 researchkit --help
 ```
 
-<br />
+---
 
-## 💻 Usage
+## Usage
 
 ### 1. Initialize a new study
 
@@ -101,7 +101,7 @@ your_study/
   README.md
 ```
 
-<br />
+---
 
 ### 2. Environment snapshot
 
@@ -121,17 +121,17 @@ And optionally saves:
 docs/environment_info.md
 ```
 
-<br />
+---
 
-## 🧠 Philosophy
+## Philosophy
 
 `researchkit` is intentionally lightweight:
 
 The goal is simple:  
 **make reproducible workflows the default.**
 
-<br />
+---
 
-## 📜 License
+## License
 
 MIT License. See `LICENSE` for details.
