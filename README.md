@@ -3,7 +3,7 @@
 Welcome to **researchkit** - a small Python toolkit that bootstraps a **reproducible study
 template** in a single command. 
 
-`researchkit` is designed for public-health, behavioral, and clinical researchers who want clean structure, metadata, and analysis scaffolds from day one.
+`researchkit` is designed for public-health, behavioral, and researchers who want clean structure, metadata, and analysis scaffolds from day one.
 
 ---
 
@@ -120,15 +120,6 @@ And optionally saves:
 ```
 docs/environment_info.md
 ```
-
----
-
-## Philosophy
-
-`researchkit` is intentionally lightweight:
-
-The goal is simple:  
-**make reproducible workflows the default.**
 
 ---
 
